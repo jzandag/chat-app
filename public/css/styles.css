@@ -144,8 +144,15 @@ button:disabled {
 
 .compose form {
     display: flex;
+    flex-direction: column;
+    align-items: stretch;
     flex-grow: 1;
     margin-right: 16px;
+}
+.compose .buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .compose input {
